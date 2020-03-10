@@ -22,7 +22,5 @@ public class Stock {
         // 將資料印出
         System.out.printf("股票名稱: %s 買進成本: %,.1f\n", stockName, cost);
         System.out.printf("股票名稱: %s 買進成本: %,.1f\n", stockName, cost);
-        
-        
     }
 }
