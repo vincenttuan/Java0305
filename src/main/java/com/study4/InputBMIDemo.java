@@ -1,5 +1,6 @@
 package com.study4;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class InputBMIDemo {
@@ -29,6 +30,12 @@ public class InputBMIDemo {
     }
     
     public static void main(String[] args) {
-        begin();
+        try {
+            begin();
+        } catch (InputMismatchException e) {
+            System.out.println("輸入錯誤, 請全部重新輸入");
+            main(null);
+        }
+        
     }
 }
