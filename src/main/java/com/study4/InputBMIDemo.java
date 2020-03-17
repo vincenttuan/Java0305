@@ -14,9 +14,9 @@ public class InputBMIDemo {
         double bmi = w / Math.pow(h/100, 2);
         // 判定結果
         String result = "";
-        if(bmi > 23)
+        if(bmi > 23) {
             result = "過重";
-        else if(bmi <= 18) {
+        } else if(bmi <= 18) {
             result = "過輕";
         } else {
             result = "正常";
