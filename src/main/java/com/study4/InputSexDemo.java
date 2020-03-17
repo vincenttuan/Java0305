@@ -17,10 +17,10 @@ public class InputSexDemo {
         }
         // 使用 switch-case
         switch(sex) {
-            case '1':
+            case '1': // ASCII = 49
                 System.out.println("男生");
                 break;
-            case '2':
+            case '2': // ASCII = 50
                 System.out.println("女生");
                 break;
             default:
