@@ -3,7 +3,8 @@ package com.study4;
 import java.util.Scanner;
 
 public class InputBMIDemo {
-    public static void main(String[] args) {
+    
+    public static void begin() {
         Scanner sc = new Scanner(System.in);
         System.out.println("請輸入身高(cm): ");
         double h = sc.nextDouble();
@@ -20,5 +21,9 @@ public class InputBMIDemo {
             result = "正常";
         }
         System.out.printf("身高: %.1f 體重: %.1f BMI: %.1f 判定結果: %s\n", h, w, bmi, result);
+    }
+    
+    public static void main(String[] args) {
+        begin();
     }
 }
