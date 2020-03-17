@@ -15,5 +15,17 @@ public class InputSexDemo {
         } else {
             System.out.println("錯誤");
         }
+        // 使用 switch-case
+        switch(sex) {
+            case '1':
+                System.out.println("男生");
+                break;
+            case '2':
+                System.out.println("女生");
+                break;
+            default:
+                System.out.println("錯誤");
+                //break;
+        }
     }
 }
