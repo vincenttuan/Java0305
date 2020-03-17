@@ -12,5 +12,7 @@ public class InputIntCheckOddDemo {
         } else {
             System.out.printf("%d 是奇數\n", x);
         }
+        // 三元運算子
+        System.out.printf("%d 是%s數\n", x, (x%2==0?"偶":"奇"));
     }
 }
