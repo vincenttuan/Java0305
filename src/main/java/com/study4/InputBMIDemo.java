@@ -21,6 +21,11 @@ public class InputBMIDemo {
             result = "正常";
         }
         System.out.printf("身高: %.1f 體重: %.1f BMI: %.1f 判定結果: %s\n", h, w, bmi, result);
+        System.out.println("是否要繼續輸入? (y/n) ");
+        String s = sc.next();
+        if(s.equalsIgnoreCase("y")) {
+            begin();
+        }
     }
     
     public static void main(String[] args) {
