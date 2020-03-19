@@ -10,6 +10,9 @@ public class WhileDemo {
                 System.out.printf("遇到 19 的倍數 %d, 所以迴圈停止\n", x);
                 break; // 迴圈停止
             }
+            if(x % 2 == 1) {
+                continue;
+            }
             System.out.println(x);
         }
     }
