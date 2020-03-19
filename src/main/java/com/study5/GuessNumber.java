@@ -12,6 +12,9 @@ public class GuessNumber {
             Scanner sc = new Scanner(System.in);
             System.out.printf("請猜一個數字 %d ~ %d :\n", min, max);
             int guess = sc.nextInt();
+            // 檢查 guess 是否在 min 與 max 之間 ?
+            
+            
             if(guess > ans) {
                 max = guess;
                 continue;
