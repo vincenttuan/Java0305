@@ -2,7 +2,6 @@ package com.study5;
 
 public class NineTable {
     public static void main(String[] args) {
-        
         int x = 1;
         while (x <= 9) {            
             int y = 1;
@@ -14,8 +13,5 @@ public class NineTable {
             System.out.println();
             x++;
         }
-        
-        
-        
     }
 }
